@@ -1,0 +1,176 @@
+<<<<<<< HEAD
+body { 
+    background: url(background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content:center;
+    align-items:center;
+    display: flex;
+    margin:  auto;
+  }
+  .form-container {
+      background-color: rgba(14, 11, 8, 0.7);
+      width: 80%;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin-top: 1%;
+      margin-bottom: 20%;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 15px;
+      padding: 30px 55px 55px;
+  }
+  .container-logo-container{
+      display: flex;
+      justify-content: center;
+  }
+ .logo-container{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+ }
+ .logo {
+     width: 45%;
+     height: auto;
+ }
+ .titolo-container {
+     color:rgb(0, 255, 8);
+     display: flex;
+     justify-content: center;
+     margin-top: 12px;
+ }
+ .titolo{
+    font-size: xx-large;
+ }
+ .input-box{
+     width: 100%;
+     background-color: rgb(0, 255, 8);
+     height: auto;
+     padding: 10px;
+     display: flex;
+     justify-content: center;
+ }
+ .item {
+     margin-left: 5px;
+ }
+ .scelta-monopattino{
+     color: white;
+     line-height: 0.5;
+ }
+ .monopattino {
+    display: inline-block;
+    margin-top: 20px;
+ 
+ }
+ .monopattino-element{
+     display: inline-block;
+ }
+ .status-box1{
+     width: 50%;
+     height: 30px;
+     border: rgb(255, 187, 0) solid 1px;
+     border-radius:     5px;
+     background-color: rgb(255, 187, 0);
+ }
+ .status-box2{
+    width: 65%;
+    height: 30px;
+    background-color: rgb(0, 255, 8) ;
+    border-radius:     5px;
+}
+.status-box3{
+    width: 15%;
+    height: 30px;
+    background-color: red ;
+    border-radius:     5px;
+=======
+body { 
+    background: url(background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin:  auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+  }
+  .main-container {
+      background-color: rgba(14, 11, 8, 0.6);
+      width: 70%;
+      height: auto;
+      margin-top: 1%;
+      margin-bottom: 20%;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 15px;
+      padding: 30px 55px 55px;
+  }
+ 
+ .logo-container{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+ }
+ .logo {
+     width: 45%;
+     height: auto;
+     display: block;
+     margin: 0 auto;    
+}
+ .titolo-container {
+     color:rgb(0, 255, 8);
+     justify-content: center;
+     margin-top: 12px;
+ }
+ .titolo{
+   /* font-size: xx-large;*/
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1%;
+ }
+ .input-box{
+     background-color: rgb(0, 255, 8);
+     height: auto;
+     padding: 10px;
+     text-align: center;
+ }
+ .item {
+     margin-left: 5px;
+ }
+ .scelta-monopattino{
+     color: white;
+     line-height: 0.5;
+     margin-top: 5%;
+ }
+.monopattino{
+    margin-bottom: 15px;
+}
+ .monopattino-element{
+     display: inline-block;
+     margin-bottom: 0.5%;
+ }
+ .status-box1{
+     width: 50%;
+     height: 30px;
+     border: rgb(255, 187, 0) solid 1px;
+     border-radius:     5px;
+     background-color: rgb(255, 187, 0);
+ }
+ .status-box2{
+    width: 65%;
+    height: 30px;
+    background-color: rgb(0, 255, 8) ;
+    border-radius:     5px;
+}
+.status-box3{
+    width: 15%;
+    height: 30px;
+    background-color: red ;
+    border-radius:     5px;
+>>>>>>> 673d0b567c907e43bf556b8225171c83362d5d91
+}
